@@ -1,0 +1,186 @@
+# You
+
+name = "Anthony Pileggi"
+position = "Data Scientist"
+
+[address]
+  street = "4660 Yeardley Loop"
+  city = "Williamsburg"
+  state = "Virgina"
+  zip_code = 23185
+
+[contact]
+  phone = "2157386383"
+  email = "apileggi20@gmail.com"
+  github = "anthonypileggi"
+  homepage = "blog.sqwerl.life"
+
+[education]
+
+  [education.undergraduate]
+    degree = "B.S. in Statistics"
+    school = "Carnegie Mellon University"
+    city = "Pittsburgh"
+    state = "PA"
+    start_date = 2004-09-01
+    end_date = 2008-05-31
+    concentration = "Psychology"
+
+  [education.graduate]
+  degree = "M.S. in Biostatistics"
+  school = "Emory University"
+  city = "Atlanta"
+  state = "GA"
+  start_date = 2008-09-01
+  end_date = 2016-12-31
+  thesis = "Imposing Sparsity and Fusion in Regression and its Applications"
+  advisor = "Dr. Lance Waller"
+
+
+[[experience]]
+  position = "Data Scientist"
+  company = "iFixit"
+  start_date = 2015-05-01
+  end_date = 2018-08-31
+  [[experience.description]]
+    item = "A/B testing: design, monitoring, stopping rules, and analysis"
+  [[experience.description]]
+    item = "Web traffic reporting: synthesize data, identify trends, and project traffic data"
+  [[experience.description]]
+    item = "e-Commerce: forecast sell rates, recommend prices for profit optimization, improve metrics utilized for operational decisions"
+  [[experience.description]]
+    item = "Dashboards: maintain and improve Chartio/Shiny dashboards, create customized dashboards to address recurring needs"
+  [[experience.description]]
+    item = "Data procurement: identify and obtain data via APIs or webscraping to inform operational decisions"
+  [[experience.description]]
+    item = "General consultant: identify and compile data, analyze data, present results for various company units"
+
+[[experience]]
+  position = "Statistical Consultant"
+  company = "Biostatistics Consulting Center, Emory University"
+  start_date = 2008-09-01
+  end_date = 2015-05-31
+  [[experience.description]]
+    item = "Collaborate with various investigators regarding statistical design and analysis."
+
+[[experience]]
+  position = "Dean's Teaching Fellow"
+  company = "Laney Graduate School, Emory University"
+  start_date = 2013-09-01
+  end_date = 2014-08-31
+  [[experience.description]]
+    item = "Design and teach Statistical Methods II to 77 graduate students."
+  [[experience.description]]
+    item = "Supervise four teaching assistants in the organization and instruction of a lab component."
+
+[[experience]]
+  position = "Instructor"
+  company = "Department of Biostatistics and Bioinformatics, Emory University"
+  start_date = 2010-09-01
+  end_date = 2012-05-31
+  [[experience.description]]
+    item = "Statistics Methods I/II Lab"
+
+[[experience]]
+  position = "Teaching Assistant"
+  company = "Department of Biostatistics and Bioinformatics, Emory University"
+  start_date = 2009-09-01
+  end_date = 2012-05-31
+  [[experience.description]]
+    item = "Statistical Methods I/II, Probability Theory I, Statistical Inference I, Fundamentals of Bioinformatics"
+
+[[experience]]
+  position = "Collaborator"
+  company = "Center for Biomedical Imaging Statistics (CBIS), Emory University"
+  start_date = 2009-09-01
+  end_date = 2012-05-31
+  [[experience.description]]
+    item = "Provide assistance and feedback for group projects, papers, and grant proposals."
+  [[experience.description]]
+    item = "Preprocess and analyze neuroimaging data acquired from human subjects"
+
+[[experience]]
+  position = "Tutor"
+  company = "Rollins School of Public Health, Emory University"
+  start_date = 2008-09-01
+  end_date = 2015-05-31
+  [[experience.description]]
+    item = "Provide instruction, motivation, and clarification for students struggling with math, statistics, or programming concepts."
+
+[[experience]]
+  position = "Research Assistant"
+  company = "Department of Statistics, Carnegie Mellon University"
+  start_date = 2007-09-01
+  end_date = 2008-05-31
+  [[experience.description]]
+    item = "Mentored by Dr. Rob Kass in the analysis of extracellular neuronal recordings derived from implanted microelectrode arrays in living macaque monkeys."
+
+[[experience]]
+  position = "Teaching Assistant"
+  company = "Department of Statistics, Carnegie Mellon University"
+  start_date = 2006-01-01
+  end_date = 2007-12-31
+
+
+[skills]
+
+  [skills.software]
+    [[skills.software.skill]]
+      item = "R"
+      level = 9
+    [[skills.software.skill]]
+      item = "Shiny"
+      level = 9
+    [[skills.software.skill]]
+      item = "Google Analytics"
+      level = 8
+    [[skills.software.skill]]
+      item = "Chartio"
+      level = 7
+    [[skills.software.skill]]
+      item = "Matlab"
+      level = 6
+    [[skills.software.skill]]
+      item = "SAS"
+      level = 6
+    [[skills.software.skill]]
+      item = "LaTeX"
+      level = 6
+    [[skills.software.skill]]
+      item = "HTML"
+      level = 5
+
+  [skills.analysis]
+    [[skills.analysis.skill]]
+      category = "Machine Learning"
+      item = "classification"
+    [[skills.analysis.skill]]
+      category = "Machine Learning"
+      item = "regression"
+    [[skills.analysis.skill]]
+      category = "Machine Learning"
+      item = "clustering"
+    [[skills.analysis.skill]]
+      category = "Machine Learning"
+      item = "networks"
+    [[skills.analysis.skill]]
+      category = "Machine Learning"
+      item = "text mining"
+
+    [[skills.analysis.skill]]
+      category = "Statistical Methods"
+      item = "hypothesis testing"
+    [[skills.analysis.skill]]
+      category = "Statistical Methods"
+      item = "regression models"
+    [[skills.analysis.skill]]
+      category = "Statistical Methods"
+      item = "forecasting"
+    [[skills.analysis.skill]]
+      category = "Statistical Methods"
+      item = "dimensionality reduction"
+    [[skills.analysis.skill]]
+      category = "Statistical Methods"
+      item = "experimental design"
+
+

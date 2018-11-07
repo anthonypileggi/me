@@ -1,0 +1,17 @@
+---
+output:
+  github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# me <img src="man/figures/logo.png" align="right" />
+
+An R package with portable information about Me.
+
