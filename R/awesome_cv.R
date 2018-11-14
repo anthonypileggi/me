@@ -3,6 +3,7 @@
 #' Create an Awesome-CV
 #' @param dir directory to place the new Awesome-CV
 #' @param color awesome-cv color
+#' @export
 awesome_cv <- function(dir = file.path(getwd(), "my-awesome-cv"),
                        color = "emerald",
                        sections = c("education", "experience")) {
