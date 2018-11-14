@@ -3,6 +3,7 @@
 #' Create a Hugo-Resume website
 #' @param dir directory to place the new hugo-resume website
 #' @param base_url base url for hosted website
+#' @importFrom magrittr "%>%"
 #' @export
 hugo_resume <- function(dir = file.path(getwd(), "my-hugo-resume"),
                         base_url = "https://www.mywebsite.com/") {
@@ -29,6 +30,23 @@ hugo_resume <- function(dir = file.path(getwd(), "my-hugo-resume"),
   file.copy(system.file("me.jpg", package = "me"), file.path(dir, "static/img"))
   file.copy(system.file("favicon.png", package = "me"), file.path(dir, "static/img"))
   
+  # create summary '_index.md'
+  my_summary <- glue::glue_data(my_data, '
+---
+title: "Home"
+date: {Sys.Date()}
+sitemap:
+  priority : 1.0
+
+outputs:
+- html
+- rss
+- json
+---
+<p>{summary}</p>    
+    ')
+  writeLines(my_summary, file.path(dir, "content/_index.md"))
+    
   # personalize 'config.toml'
   out <- readLines(system.file("hugo-resume/config_template.toml", package = "me"))
   out <- purrr::map_chr(out, ~glue::glue_data(my_data, .x))
@@ -56,8 +74,8 @@ hugo_resume <- function(dir = file.path(getwd(), "my-hugo-resume"),
   # -- skills.json
   skills(me) %>%
     tidyr::nest(-category) %>%
-    dplyr::mutate(skills = purrr::map(data, "item")) %>%
-    dplyr::select(grouping = category, skills) %>%
+    dplyr::mutate(skills = purrr::map(data, ~dplyr::select(.x, name = item, link = url))) %>%
+    dplyr::select(grouping = category, skills) %>% 
     jsonlite::toJSON(pretty = TRUE) %>%
     writeLines(file.path(dir, "data/skills.json"))
 }
