@@ -9,10 +9,10 @@ read_config <- function(file = system.file("me.toml", package = "me")) {
 experience <- function(x = read_config()) {
  # purrr::map_df(x$experience, data.frame)
   purrr::map_df(x$experience, tibble::as_tibble) %>% 
-    mutate(
+    dplyr::mutate(
       description = purrr::map_chr(description, ~ifelse(is.null(.x), NA_character_, unlist(.x)))
       ) %>% 
-    nest(description, .key = "description")
+    tidyr::nest(description, .key = "description")
 }
 
 #' @export
