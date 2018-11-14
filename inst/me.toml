@@ -21,6 +21,20 @@ favicon = ""
   homepage = "blog.sqwerl.life"
   google_analytics = "UA-114744558-2"
 
+
+# Websites ----------------------------------------------
+
+[[website]]
+  name = "Blog"
+  url = "https://blog.sqwerl.life"
+  
+[[website]]
+  name = "R/Shiny"
+  url = "http://shiny.sqwerl.life"
+
+
+# Education ---------------------------------------------
+
 [[education]]
   level = "undergraduate"
   degree = "B.S."
