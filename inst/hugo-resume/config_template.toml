@@ -1,0 +1,50 @@
+baseURL = "{base_url}"
+languageCode = "en-us"
+title = "{name}"
+theme = "hugo-resume"
+
+[params]
+    firstName = "{first_name}"
+    lastName = "{last_name}"
+    address = "{city}, {state}"
+    phone = "{phone}"
+    contactNote = "{position}"
+    profileImage = "img/me.jpg"
+    email = "{email}"
+    description = "{summary}"
+    favicon = "img/favicon.png"
+    # what sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+    showQr = false
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/edwardwebb/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "{paste0('https://github.com/', github)}"
+
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/eddiewebb/"
+
+[[params.handles]]
+    name = "Stack Overflow"
+    link = "https://stackoverflow.com/users/story/82880"
+    icon = "stack-overflow"
+
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/edwardawebb"
+    icon = "key"
+
+[params.google.analytics]
+    trackerID = "{google_analytics}"
