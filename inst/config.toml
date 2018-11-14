@@ -15,18 +15,18 @@ position = "Data Scientist"
   github = "anthonypileggi"
   homepage = "blog.sqwerl.life"
 
-[education]
-
-  [education.undergraduate]
-    degree = "B.S. in Statistics"
-    school = "Carnegie Mellon University"
-    city = "Pittsburgh"
-    state = "PA"
-    start_date = 2004-09-01
-    end_date = 2008-05-31
-    concentration = "Psychology"
-
-  [education.graduate]
+[[education]]
+  level = "undergraduate"
+  degree = "B.S. in Statistics"
+  school = "Carnegie Mellon University"
+  city = "Pittsburgh"
+  state = "PA"
+  start_date = 2004-09-01
+  end_date = 2008-05-31
+  concentration = "Psychology"
+  
+[[education]]
+  level = "graduate"
   degree = "M.S. in Biostatistics"
   school = "Emory University"
   city = "Atlanta"
@@ -40,6 +40,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Data Scientist"
   company = "iFixit"
+  city = "San Luis Obispo"
+  state = "CA"
   start_date = 2015-05-01
   end_date = 2018-08-31
   [[experience.description]]
@@ -58,6 +60,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Statistical Consultant"
   company = "Biostatistics Consulting Center, Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2008-09-01
   end_date = 2015-05-31
   [[experience.description]]
@@ -66,6 +70,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Dean's Teaching Fellow"
   company = "Laney Graduate School, Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2013-09-01
   end_date = 2014-08-31
   [[experience.description]]
@@ -76,6 +82,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Instructor"
   company = "Department of Biostatistics and Bioinformatics, Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2010-09-01
   end_date = 2012-05-31
   [[experience.description]]
@@ -84,6 +92,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Teaching Assistant"
   company = "Department of Biostatistics and Bioinformatics, Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2009-09-01
   end_date = 2012-05-31
   [[experience.description]]
@@ -92,6 +102,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Collaborator"
   company = "Center for Biomedical Imaging Statistics (CBIS), Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2009-09-01
   end_date = 2012-05-31
   [[experience.description]]
@@ -102,6 +114,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Tutor"
   company = "Rollins School of Public Health, Emory University"
+  city = "Atlanta"
+  state = "GA"
   start_date = 2008-09-01
   end_date = 2015-05-31
   [[experience.description]]
@@ -110,6 +124,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Research Assistant"
   company = "Department of Statistics, Carnegie Mellon University"
+  city = "Pittsburgh"
+  state = "PA"
   start_date = 2007-09-01
   end_date = 2008-05-31
   [[experience.description]]
@@ -118,6 +134,8 @@ position = "Data Scientist"
 [[experience]]
   position = "Teaching Assistant"
   company = "Department of Statistics, Carnegie Mellon University"
+  city = "Pittsburgh"
+  state = "PA"
   start_date = 2006-01-01
   end_date = 2007-12-31
 
