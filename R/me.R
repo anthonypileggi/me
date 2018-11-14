@@ -24,3 +24,8 @@ education <- function(x = read_config()) {
 skills <- function(x = read_config()) {
   purrr::map_df(x$skill, tibble::as_tibble)
 }
+
+#' @export
+websites <- function(x = read_config()) {
+  purrr::map_df(x$website, tibble::as_tibble)
+}
