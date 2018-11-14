@@ -3,7 +3,7 @@
 name = "Anthony Pileggi"
 position = "Data Scientist"
 
-summary = "Data Scientist; Knowledge Squirrel"
+summary = "Hi!  I'm a Data Scientist.  R is my preferred programming language."
 
 image = ""
 favicon = ""
@@ -152,10 +152,12 @@ favicon = ""
 
 [[skill]]
 	item = "R"
+	url = "https://cran.r-project.org/"
 	category = "Software"
 	level = 9
 [[skill]]
 	item = "Shiny"
+	url = "https://shiny.rstudio.com/"
 	category = "Software"
 	level = 9
 [[skill]]
