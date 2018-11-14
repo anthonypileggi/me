@@ -3,6 +3,11 @@
 name = "Anthony Pileggi"
 position = "Data Scientist"
 
+summary = "Data Scientist; Knowledge Squirrel"
+
+image = ""
+favicon = ""
+
 [address]
   street = "4660 Yeardley Loop"
   city = "Williamsburg"
@@ -14,10 +19,12 @@ position = "Data Scientist"
   email = "apileggi20@gmail.com"
   github = "anthonypileggi"
   homepage = "blog.sqwerl.life"
+  google_analytics = "UA-114744558-2"
 
 [[education]]
   level = "undergraduate"
-  degree = "B.S. in Statistics"
+  degree = "B.S."
+  major = "Statistics"
   school = "Carnegie Mellon University"
   city = "Pittsburgh"
   state = "PA"
@@ -27,7 +34,8 @@ position = "Data Scientist"
   
 [[education]]
   level = "graduate"
-  degree = "M.S. in Biostatistics"
+  degree = "M.S."
+  major = "Biostatistics"
   school = "Emory University"
   city = "Atlanta"
   state = "GA"
@@ -140,65 +148,67 @@ position = "Data Scientist"
   end_date = 2007-12-31
 
 
-[skills]
+# Skills -----------------------------------------------------------
 
-  [skills.software]
-    [[skills.software.skill]]
-      item = "R"
-      level = 9
-    [[skills.software.skill]]
-      item = "Shiny"
-      level = 9
-    [[skills.software.skill]]
-      item = "Google Analytics"
-      level = 8
-    [[skills.software.skill]]
-      item = "Chartio"
-      level = 7
-    [[skills.software.skill]]
-      item = "Matlab"
-      level = 6
-    [[skills.software.skill]]
-      item = "SAS"
-      level = 6
-    [[skills.software.skill]]
-      item = "LaTeX"
-      level = 6
-    [[skills.software.skill]]
-      item = "HTML"
-      level = 5
-
-  [skills.analysis]
-    [[skills.analysis.skill]]
-      category = "Machine Learning"
-      item = "classification"
-    [[skills.analysis.skill]]
-      category = "Machine Learning"
-      item = "regression"
-    [[skills.analysis.skill]]
-      category = "Machine Learning"
-      item = "clustering"
-    [[skills.analysis.skill]]
-      category = "Machine Learning"
-      item = "networks"
-    [[skills.analysis.skill]]
-      category = "Machine Learning"
-      item = "text mining"
-
-    [[skills.analysis.skill]]
-      category = "Statistical Methods"
-      item = "hypothesis testing"
-    [[skills.analysis.skill]]
-      category = "Statistical Methods"
-      item = "regression models"
-    [[skills.analysis.skill]]
-      category = "Statistical Methods"
-      item = "forecasting"
-    [[skills.analysis.skill]]
-      category = "Statistical Methods"
-      item = "dimensionality reduction"
-    [[skills.analysis.skill]]
-      category = "Statistical Methods"
-      item = "experimental design"
-
-
+[[skill]]
+	item = "R"
+	category = "Software"
+	level = 9
+[[skill]]
+	item = "Shiny"
+	category = "Software"
+	level = 9
+[[skill]]
+	item = "Google Analytics"
+	category = "Software"
+	level = 8
+[[skill]]
+	item = "Chartio"
+	category = "Software"
+	level = 7
+[[skill]]
+	item = "Matlab"
+	category = "Software"
+	level = 6
+[[skill]]
+	item = "SAS"
+	category = "Software"
+	level = 6
+[[skill]]
+	item = "LaTeX"
+	category = "Software"
+	level = 6
+[[skill]]
+	item = "HTML"
+	category = "Software"
+	level = 5
+[[skill]]
+	item = "classification"
+	category = "Machine Learning"
+[[skill]]
+	item = "regression"
+	category = "Machine Learning"
+[[skill]]
+	item = "clustering"
+	category = "Machine Learning"
+[[skill]]
+	item = "networks"
+	category = "Machine Learning"
+[[skill]]
+	item = "text mining"
+	category = "Machine Learning"
+[[skill]]
+	item = "hypothesis testing"
+	category = "Statistical Methods"
+[[skill]]
+	item = "regression models"
+	category = "Statistical Methods"
+[[skill]]
+	item = "forecasting"
+	category = "Statistical Methods"
+[[skill]]
+	item = "dimensionality reduction"
+	category = "Statistical Methods"
+[[skill]]
+	item = "experimental design"
+	category = "Statistical Methods"

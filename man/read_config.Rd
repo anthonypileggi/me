@@ -4,7 +4,7 @@
 \alias{read_config}
 \title{Read the config.toml file containing info about me}
 \usage{
-read_config(file = system.file("config.toml", package = "me"))
+read_config(file = system.file("me.toml", package = "me"))
 }
 \description{
 Read the config.toml file containing info about me
